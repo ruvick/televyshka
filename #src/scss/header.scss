@@ -58,19 +58,8 @@
 	transition: all 0.3s;
 }
 
-.header__menu-list {}
-
-// Блок контактов
-.contacts {
-	flex: 0 0 380px;
-
-	&__phone {
-		font-size: 28px;
-		font-weight: 700;
-	}
-}
-
 .header__contacts {
+	flex: 0 0 380px;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -124,10 +113,15 @@
 		background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMzIuMzE0IiBoZWlnaHQ9IjMyLjMxNCIgdmlld0JveD0iMCAwIDMyLjMxNCAzMi4zMTQiPg0KICA8ZGVmcz4NCiAgICA8Y2xpcFBhdGggaWQ9ImNsaXAtcGF0aCI+DQogICAgICA8cmVjdCBpZD0i0J/RgNGP0LzQvtGD0LPQvtC70YzQvdC40LpfMTciIGRhdGEtbmFtZT0i0J/RgNGP0LzQvtGD0LPQvtC70YzQvdC40LogMTciIHdpZHRoPSIzMi4zMTQiIGhlaWdodD0iMzIuMzE0IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxNTAxLjYzOCAyNy42NDYpIiBmaWxsPSJub25lIi8+DQogICAgPC9jbGlwUGF0aD4NCiAgPC9kZWZzPg0KICA8ZyBpZD0i0KHQs9GA0YPQv9C/0LjRgNC+0LLQsNGC0YxfNjMiIGRhdGEtbmFtZT0i0KHQs9GA0YPQv9C/0LjRgNC+0LLQsNGC0YwgNjMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNTAxLjYzOCAtMjcuNjQ2KSIgY2xpcC1wYXRoPSJ1cmwoI2NsaXAtcGF0aCkiPg0KICAgIDxnIGlkPSLQodCz0YDRg9C/0L/QuNGA0L7QstCw0YLRjF82MiIgZGF0YS1uYW1lPSLQodCz0YDRg9C/0L/QuNGA0L7QstCw0YLRjCA2MiI+DQogICAgICA8cGF0aCBpZD0i0JrQvtC90YLRg9GAXzQ0IiBkYXRhLW5hbWU9ItCa0L7QvdGC0YPRgCA0NCIgZD0iTTE1MTcuMTMyLDU5Ljk2aDEuMzQ1YzcuMywwLDEwLjk1OCwwLDEzLjIyNi0yLjI2OXMyLjI0OS01LjkyLDIuMjQ5LTEzLjIwNlY0My4xMmMwLTcuMjg1LDAtMTAuOTM3LTIuMjQ5LTEzLjIwNnMtNS45MjEtMi4yNjgtMTMuMjI2LTIuMjY4aC0xLjM0NWMtNy4zMDYsMC0xMC45NTcsMC0xMy4yMjYsMi4yNjhzLTIuMjY4LDUuOTE5LTIuMjY4LDEzLjIwNnYxLjM2NWMwLDcuMjg2LDAsMTAuOTM4LDIuMjY4LDEzLjIwNlMxNTA5LjgyNiw1OS45NiwxNTE3LjEzMiw1OS45NloiIGZpbGw9IiM4NjkyOWUiLz4NCiAgICAgIDxwYXRoIGlkPSLQmtC+0L3RgtGD0YBfNDUiIGRhdGEtbmFtZT0i0JrQvtC90YLRg9GAIDQ1IiBkPSJNMTUxOC45NzgsNTAuOTQ0Yy03LjI4NiwwLTExLjcwOC01LjA1NS0xMS44OC0xMy40NTZoMy42OWMuMTE2LDYuMTcxLDIuOTIzLDguNzksNS4wNzUsOS4zMjRWMzcuNDg4aDMuNTM4djUuMzI1YzIuMDc2LS4yMzEsNC4yNDctMi42NTMsNC45NzktNS4zMjVoMy40NzhhMTAuMjQ4LDEwLjI0OCwwLDAsMS00LjU5NCw2LjcwOSwxMC42MjcsMTAuNjI3LDAsMCwxLDUuNCw2Ljc0N2gtMy44MjVhNi41MzIsNi41MzIsMCwwLDAtNS40NC00LjgwNnY0LjgwNloiIGZpbGw9IiNmZmYiLz4NCiAgICA8L2c+DQogIDwvZz4NCjwvc3ZnPg0K');
 	}
 }
-
-.header__contacts-phone {
+.contacts-phone-block {
 	display: flex;
 	flex-direction: column;
+}
+.contacts-phone-block__telephone {
+	font-size: 28px;
+	font-weight: 700;
+}
+.header__contacts-phone {
 	padding-top: 5px;
 }
 
@@ -137,33 +131,6 @@
 	line-height: 16.8px;
 	// margin-top: 5px;
 }
-
-// Текстовые блоки шапки ========================================
-.header h1 {
-	margin-bottom: 33px;
-}
-
-.header__title-paragraph {
-	line-height: 24px;
-	color: #fff;
-	margin-bottom: 58px;
-}
-
-.header__subtitle {
-	font-size: 22px;
-	line-height: 26.4px;
-	color: #fff;
-	margin-bottom: 15px;
-}
-
-.header__btn {
-	width: 285px;
-	color: #161615;
-	background: #fff;
-	box-shadow: 0px 13px 12px -13px #000000;
-}
-
-// =============================================================
 
 // Стиль иконки бургера
 .icon-menu {
