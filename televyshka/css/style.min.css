@@ -146,6 +146,12 @@ h4 {
   line-height: 38px;
 }
 
+h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+}
+
 .title {
   color: #161615;
   margin-bottom: 38px;
@@ -2494,6 +2500,22 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   transition: left 1s cubic-bezier(0, 0, 0.25, 1) 0s, opacity 0.1s ease 0s;
 }
 
+#map {
+  background: url("../img/icons/loading.gif") center/50px no-repeat;
+}
+
+.map {
+  width: 100%;
+}
+
+.ymaps-2-1-79-copyright__wrap,
+.ymaps-2-1-79-map-copyrights-promo,
+.ymaps-2-1-77-gotoymaps__container,
+.ymaps-2-1-77-gototech,
+.ymaps-2-1-77-copyright__content {
+  display: none !important;
+}
+
 .tippy-box[data-animation=fade][data-state=hidden] {
   opacity: 0;
 }
@@ -3496,6 +3518,43 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .our-gas__card_05 {
   background-image: url("../img/card/05.jpg");
+}
+
+.addresses__wrap {
+  height: 675px;
+}
+
+.addresses__column_left {
+  flex: 0 0 381px;
+  margin-right: 20px;
+}
+
+.addresses__column_right {
+  flex: 1 1 auto;
+}
+
+.addresses__block {
+  height: 100%;
+  padding: 20px 15px 20px 48px;
+  background: #F4F4F4;
+  border-radius: 30px 0 0 30px;
+  overflow: auto;
+}
+
+.addresses__block-item {
+  margin-bottom: 30px;
+}
+.addresses__block-item:last-child {
+  margin-bottom: 0;
+}
+
+.addresses__block-item-title {
+  margin-bottom: 13px;
+}
+
+.addresses__map {
+  height: 675px;
+  overflow: hidden;
 }
 
 @media (max-width: 1200px) {

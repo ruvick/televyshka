@@ -83,6 +83,12 @@ h4 {
 	line-height: 38px;
 }
 
+h5 {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19.2px;
+}
+
 .title {
 	color: #161615;
 	margin-bottom: 38px;
@@ -151,7 +157,7 @@ h4 {
 //@import "baguetteBox";
 // @import "fancybox.min";
 //@import "pagging";
-// @import "map";
+@import "map";
 // @import "slider-index";
 // @import "catalog";
 // @import "collection";
@@ -342,6 +348,52 @@ h4 {
 }
 
 //========================================================================================================================================================
+
+.addresses {}
+
+.addresses__wrap {
+	height: 675px;
+}
+
+.addresses__column {}
+
+.addresses__column_left {
+	flex: 0 0 381px;
+	margin-right: 20px;
+}
+
+.addresses__column_right {
+	flex: 1 1 auto;
+}
+
+.addresses__block {
+	height: 100%;
+	padding: 20px 15px 20px 48px;
+	background: #F4F4F4;
+	border-radius: 30px 0 0 30px;
+	overflow: auto;
+}
+
+.addresses__block-item {
+	margin-bottom: 30px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.addresses__block-item-title {
+	margin-bottom: 13px;
+}
+
+.addresses__block-item-list {}
+
+.addresses__block-item-list-item {}
+
+.addresses__map {
+	height: 675px;
+	overflow: hidden;
+}
 
 //========================================================================================================================================================
 

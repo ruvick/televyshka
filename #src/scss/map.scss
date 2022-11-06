@@ -4,7 +4,7 @@
 
 #map {
 	background: url("../img/icons/loading.gif") center / 50px no-repeat;
-} 
+}
 
 .map {
 	width: 100%;
@@ -20,8 +20,10 @@
 // Убираем лишние элементы с карты
 .ymaps-2-1-79-copyright__wrap,
 .ymaps-2-1-79-map-copyrights-promo,
-.ymaps-2-1-77-gotoymaps__container, 
-.ymaps-2-1-77-gototech, 
+.ymaps-2-1-77-gotoymaps__container,
+.ymaps-2-1-77-gototech,
 .ymaps-2-1-77-copyright__content {
-  display: none !important;}
+	display: none !important;
+}
+
 // =================================================================================================================================================

@@ -20,9 +20,9 @@ function init() {
 	}, {
 		// Необходимо указать данный тип макета.
 		iconLayout: 'default#image',
-		iconImageHref: 'img/icons/map-marker.svg',
+		iconImageHref: 'img/icons/map-azs.svg',
 		// Размеры метки.
-		iconImageSize: [36, 55],
+		iconImageSize: [50, 75],
 		// Смещение левого верхнего угла иконки относительно
 		// её «ножки» (точки привязки).
 		iconImageOffset: [-18, -26]
@@ -35,9 +35,9 @@ function init() {
 	}, {
 		// Необходимо указать данный тип макета.
 		iconLayout: 'default#image',
-		iconImageHref: 'img/icons/map-marker.svg',
+		iconImageHref: 'img/icons/map-azs.svg',
 		// Размеры метки.
-		iconImageSize: [151, 41],
+		iconImageSize: [50, 75],
 		// Смещение левого верхнего угла иконки относительно
 		// её «ножки» (точки привязки).
 		iconImageOffset: [-18, -26]
@@ -50,9 +50,9 @@ function init() {
 	}, {
 		// Необходимо указать данный тип макета.
 		iconLayout: 'default#image',
-		iconImageHref: 'img/icons/map-marker.svg',
+		iconImageHref: 'img/icons/map-azs.svg',
 		// Размеры метки.
-		iconImageSize: [151, 41],
+		iconImageSize: [50, 75],
 		// Смещение левого верхнего угла иконки относительно
 		// её «ножки» (точки привязки).
 		iconImageOffset: [-18, -26]
@@ -65,9 +65,9 @@ function init() {
 	}, {
 		// Необходимо указать данный тип макета.
 		iconLayout: 'default#image',
-		iconImageHref: 'img/icons/map-marker.svg',
+		iconImageHref: 'img/icons/map-azs.svg',
 		// Размеры метки.
-		iconImageSize: [165, 40],
+		iconImageSize: [50, 75],
 		// Смещение левого верхнего угла иконки относительно
 		// её «ножки» (точки привязки).
 		iconImageOffset: [-18, -26]
@@ -80,9 +80,9 @@ function init() {
 	}, {
 		// Необходимо указать данный тип макета.
 		iconLayout: 'default#image',
-		iconImageHref: 'img/icons/map-marker.svg',
+		iconImageHref: 'img/icons/map-azs.svg',
 		// Размеры метки.
-		iconImageSize: [165, 40],
+		iconImageSize: [50, 75],
 		// Смещение левого верхнего угла иконки относительно
 		// её «ножки» (точки привязки).
 		iconImageOffset: [-18, -26]
@@ -95,9 +95,9 @@ function init() {
 	}, {
 		// Необходимо указать данный тип макета.
 		iconLayout: 'default#image',
-		iconImageHref: 'img/icons/map-marker.svg',
+		iconImageHref: 'img/icons/map-azs.svg',
 		// Размеры метки.
-		iconImageSize: [165, 40],
+		iconImageSize: [50, 75],
 		// Смещение левого верхнего угла иконки относительно
 		// её «ножки» (точки привязки).
 		iconImageOffset: [-16, -42]
