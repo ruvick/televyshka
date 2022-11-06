@@ -3464,6 +3464,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .about__imageBlock {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -3473,8 +3474,18 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   margin-top: 65px;
   background: grey;
   border-radius: 25px;
-  border: 1px solid #000;
-  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/about.jpg");
+}
+
+.about__imageBlock-phone {
+  position: absolute;
+  top: -23%;
+  left: 24%;
+  width: 938px;
+  height: 938px;
 }
 
 .about__imageBlock-line {
