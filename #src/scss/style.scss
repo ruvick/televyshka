@@ -215,6 +215,7 @@ h5 {
 
 .main-banner__iconBlock {
 	display: flex;
+	margin-top: 52px;
 }
 
 .main-banner__iconBlock-item {
@@ -230,7 +231,6 @@ h5 {
 	background-color: #00000035;
 	border-radius: 50%;
 	margin-right: 25px;
-	margin-top: 52px;
 
 	&:last-child {
 		margin-right: 0;
@@ -297,6 +297,10 @@ h5 {
 	background-size: cover;
 	background-image: url('../img/about.jpg');
 	// overflow: hidden;
+}
+
+.about__imageBlock-nuar_blk {
+	display: none;
 }
 
 .about__imageBlock-phone {
