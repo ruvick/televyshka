@@ -41,7 +41,7 @@
 
 .menu-list {
 	display: flex;
-	// justify-content: flex-end;
+	justify-content: flex-end;
 	flex-wrap: wrap;
 
 	a {
@@ -209,7 +209,7 @@
 	box-shadow: 0px 3px 5px 0px black;
 	-webkit-transition: right 0.8s;
 	-o-transition: right 0.8s;
-	margin-top: 30px;
+	margin-top: 25px;
 	transition: right 0.8s;
 	overflow: auto;
 }
