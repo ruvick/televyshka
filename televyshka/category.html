@@ -1,390 +1,1 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-	<title>Категории</title>
-	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css">
-	<!-- <link rel="stylesheet" href="css/fancybox.css"> -->
-	<link rel="icon" type="image/png" href="img/favicons/icon256.png" sizes="256x256">
-	<link rel="icon" type="image/png" href="img/favicons/icon128.png" sizes="128x128">
-	<link rel="icon" type="image/png" href="img/favicons/icon64.png" sizes="64x64">
-	<link rel="icon" type="image/png" href="img/favicons/icon32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="img/favicons/icon16.png" sizes="16x16">
-	<link rel="icon" type="image/png" href="img/favicons/icon.svg" sizes="any">
-	<link rel="shortcut icon" href="favicon.ico">
-	<!-- <meta name="robots" content="noindex, nofollow"> -->
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
-	<div class="wrapper">
-		<header id="header" class="header">
-	<div class="header__container _container">
-
-		<div class="header__row d-flex">
-
-			<a href="index.html" class="logo-icon header__logo">
-				<!-- <? bloginfo("url"); ?> -->
-			</a>
-
-			<ul class="menu-list header__menu-list d-flex">
-				<li class="menu-list__item"><a href="#" class="header__menu-list-link">Главная</a></li>
-				<li class="menu-list__item"><a href="#" class="header__menu-list-link">Заправки</a></li>
-				<li class="menu-list__item"><a href="#" class="header__menu-list-link">Бонусная программа </a>
-				</li>
-				<li class="menu-list__item"><a href="#" class="header__menu-list-link">Контакты</a></li>
-			</ul>
-			<!-- <?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'menu__list',
-						'container_class' => 'menu__list','container' => false )); ?>  -->
-
-			<div class="header__contacts d-flex">
-				<div class="header__contacts-social d-flex">
-					<a href="#" class="header__contacts-social-link contacts-social-link header__contacts-social-link_01"></a>
-					<a href="#" class="header__contacts-social-link contacts-social-link header__contacts-social-link_02"></a>
-				</div>
-				<div class="header__contacts-phone contacts-phone-block">
-					<a href="tel:84951700000" class="contacts-phone-block__telephone header__phone">8 800 488 22 22</a>
-					<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->
-					<a href="#callback" class="header__popup-link _popup-link">Заказать звонок</a>
-				</div>
-			</div>
-			<a href="tel:84951700000" class="mob-phone-icon header__mob-phone-icon"></a>
-			<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>" class="mob-callback__phone"></a> -->
-
-			<div class="icon-menu" aria-label="Бургер меню">
-				<span></span>
-				<span></span>
-				<span></span>
-			</div>
-
-		</div>
-</header>
-
-<!-- Мобильное меню -->
-<div class="mob-menu header__mob-menu">
-	<ul class="mob-menu__list">
-		<li class="mob-menu__item"><a href="#" class="mob-menu__link">Главная</a></li>
-		<li class="mob-menu__item"><a href="#" class="mob-menu__link">Заправки</a></li>
-		<li class="mob-menu__item"><a href="#" class="mob-menu__link">Бонусная программа </a></li>
-		<li class="mob-menu__item"><a href="#" class="mob-menu__link">Контакты</a></li>
-	</ul>
-	<!-- <?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'mob-menu__list',
-		'container_class' => 'mob-menu__list','container' => false )); ?>  -->
-	<a href="#callback" class="header__popup-link header__popup-link_mob btn _popup-link">ЗАКАЗАТЬ ЗВОНОК</a>
-</div>
-		<main class="page">
-
-			<section id="catBanner" class="catBanner banner">
-				<div class="banner__nuar_blk nuar_blk"></div>
-			</section>
-
-			<section class="recurring">
-				<div class="_container">
-
-					<p id="breadcrumbs">
-						<span>
-							<span>
-								<a href="index.html">
-									Главная
-								</a> /
-								<span class="breadcrumb_last" aria-current="page">
-									Наши АЗС
-								</span>
-							</span>
-						</span>
-					</p>
-
-					<h2 class="our-gas__title">
-						Наши АЗС
-					</h2>
-
-					<div class="our-gas__title-line title-line"></div>
-
-					<div class="our-gas__wrap d-flex">
-
-						<div class="our-gas__inner d-flex">
-
-							<a href="#" class="our-gas__card our-gas__card_01">
-								<div class="our-gas__card-descpBlock">
-									<div class="our-gas__card-descpBlock-icon"></div>
-									<div class="our-gas__card-descpBlock-text">АЗС №01</div>
-								</div>
-							</a>
-
-							<a href="#" class="our-gas__card our-gas__card_02">
-								<div class="our-gas__card-descpBlock">
-									<div class="our-gas__card-descpBlock-icon"></div>
-									<div class="our-gas__card-descpBlock-text">АЗС №03</div>
-								</div>
-							</a>
-
-							<a href="#" class="our-gas__card our-gas__card_03">
-								<div class="our-gas__card-descpBlock">
-									<div class="our-gas__card-descpBlock-icon"></div>
-									<div class="our-gas__card-descpBlock-text">АЗС №02</div>
-								</div>
-							</a>
-
-							<a href="#" class="our-gas__card our-gas__card_04">
-								<div class="our-gas__card-descpBlock">
-									<div class="our-gas__card-descpBlock-icon"></div>
-									<div class="our-gas__card-descpBlock-text">АЗС №04</div>
-								</div>
-							</a>
-
-							<a href="#" class="our-gas__card our-gas__card_06">
-								<div class="our-gas__card-descpBlock">
-									<div class="our-gas__card-descpBlock-icon"></div>
-									<div class="our-gas__card-descpBlock-text">АЗС №05</div>
-								</div>
-							</a>
-
-						</div>
-
-						<div class="our-gas__inner our-gas__inner-big d-flex">
-							<a href="#" class="our-gas__card our-gas__card-big our-gas__card_05">
-								<div class="our-gas__card-descpBlock">
-									<div class="our-gas__card-descpBlock-icon"></div>
-									<div class="our-gas__card-descpBlock-text">АЗС №06</div>
-								</div>
-							</a>
-						</div>
-
-					</div>
-
-				</div>
-			</section>
-
-			<section id="addresses" class="addresses section">
-				<div class="_container">
-
-					<div class="addresses__wrap d-flex">
-
-						<div class="addresses__column addresses__column_left">
-							<div class="addresses__block">
-
-								<div class="addresses__block-item">
-									<h5 class="addresses__block-item-title">Курск, улица 50 лет Октября</h5>
-									<!-- <p class="addresses__block-item-subtitle"></p> -->
-									<ul class="addresses__block-item-list">
-										<li class="addresses__block-item-list-item">Сервис:</li>
-										<li class="addresses__block-item-list-item">Кофе Магазин Туалет</li>
-										<li class="addresses__block-item-list-item">Бесплатный WiFi</li>
-										<li class="addresses__block-item-list-item">Мойка самообслуживания
-										</li>
-										<li class="addresses__block-item-list-item">Парковка</li>
-									</ul>
-								</div>
-
-								<div class="addresses__block-item">
-									<h5 class="addresses__block-item-title">Курск, улица 50 лет Октября</h5>
-									<!-- <p class="addresses__block-item-subtitle"></p> -->
-									<ul class="addresses__block-item-list">
-										<li class="addresses__block-item-list-item">Сервис:</li>
-										<li class="addresses__block-item-list-item">Кофе Магазин Туалет</li>
-										<li class="addresses__block-item-list-item">Бесплатный WiFi</li>
-										<li class="addresses__block-item-list-item">Мойка самообслуживания
-										</li>
-										<li class="addresses__block-item-list-item">Парковка</li>
-									</ul>
-								</div>
-
-								<div class="addresses__block-item">
-									<h5 class="addresses__block-item-title">Курск, улица 50 лет Октября</h5>
-									<!-- <p class="addresses__block-item-subtitle"></p> -->
-									<ul class="addresses__block-item-list">
-										<li class="addresses__block-item-list-item">Сервис:</li>
-										<li class="addresses__block-item-list-item">Кофе Магазин Туалет</li>
-										<li class="addresses__block-item-list-item">Бесплатный WiFi</li>
-										<li class="addresses__block-item-list-item">Мойка самообслуживания
-										</li>
-										<li class="addresses__block-item-list-item">Парковка</li>
-									</ul>
-								</div>
-
-								<div class="addresses__block-item">
-									<h5 class="addresses__block-item-title">Курск, улица 50 лет Октября</h5>
-									<!-- <p class="addresses__block-item-subtitle"></p> -->
-									<ul class="addresses__block-item-list">
-										<li class="addresses__block-item-list-item">Сервис:</li>
-										<li class="addresses__block-item-list-item">Кофе Магазин Туалет</li>
-										<li class="addresses__block-item-list-item">Бесплатный WiFi</li>
-										<li class="addresses__block-item-list-item">Мойка самообслуживания
-										</li>
-										<li class="addresses__block-item-list-item">Парковка</li>
-									</ul>
-								</div>
-
-								<div class="addresses__block-item">
-									<h5 class="addresses__block-item-title">Курск, улица 50 лет Октября</h5>
-									<!-- <p class="addresses__block-item-subtitle"></p> -->
-									<ul class="addresses__block-item-list">
-										<li class="addresses__block-item-list-item">Сервис:</li>
-										<li class="addresses__block-item-list-item">Кофе Магазин Туалет</li>
-										<li class="addresses__block-item-list-item">Бесплатный WiFi</li>
-										<li class="addresses__block-item-list-item">Мойка самообслуживания
-										</li>
-										<li class="addresses__block-item-list-item">Парковка</li>
-									</ul>
-								</div>
-
-							</div>
-						</div>
-
-						<div class="addresses__column addresses__column_right">
-							<div id="map" class="addresses__map"></div>
-						</div>
-
-					</div>
-
-				</div>
-			</section>
-
-		</main>
-		<footer id="footer" class="footer">
-	<div class="footer__container _container">
-
-		<div class="footer__row d-flex">
-
-			<a href="index.html" class="logo-icon footer__logo">
-				<!-- <? bloginfo("url"); ?> -->
-			</a>
-
-			<ul class="footer__menu d-flex">
-				<li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Главная</a></li>
-				<li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Заправки</a></li>
-				<li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Бонусная программа </a></li>
-				<li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Контакты</a></li>
-			</ul>
-
-			<div class="footer__contacts">
-				<div class="footer__contacts-phone contacts-phone-block">
-					<a href="tel:84951700000" class="footer__telephone contacts-phone-block__telephone">8 800 488 22 22</a>
-					<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->
-					<a href="#callback" class="footer__popup-link header__popup-link _popup-link">Заказать звонок</a>
-				</div>
-
-			</div>
-
-		</div>
-
-		<div class="footer__row footer__row-bottom d-flex">
-			<div class="footer__social-block">
-				<div class="contacts-social d-flex">
-					<a href="#" class="footer__contacts-social-link contacts-social-link header__contacts-social-link_01"></a>
-					<a href="#" class="footer__contacts-social-link contacts-social-link header__contacts-social-link_02"></a>
-				</div>
-				<p class="footer__social-text">Мы в соцсетях</p>
-			</div>
-		</div>
-
-	</div>
-</footer>
-	</div>
-	<!-- Popup-с формой -->
-<div class="popup popup_callback">
-	<div class="popup__content">
-		<div class="popup__body">
-			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
-			<div class="popup__item d-flex">
-				<div class="popup__img">
-					<img src="img/popup.jpg" alt="">
-				</div>
-				<div class="popup__form-block">
-					<h2>Заказать звонок</h2>
-					<p class="popup__notific">Оставьте заявку и мы свяжемся с Вами в течении 15 минут</p>
-					<form action="#" class="form">
-						<div class="form__line">
-							<input id="name" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Имя"
-								class="popup__form-input input _req">
-							<input id="tel2" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Телефон"
-								class="popup__form-input input _phone _req">
-							<input id="email" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Email"
-								class="popup__form-input input _email _req">
-						</div>
-						<p class="popup__policy">Заполняя данную форму вы соглашаетесь с <a href="#">политикой
-								конфиденциальности</a></p>
-						<button class="popup__form-btn form__btn btn">Заказать</button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- <a href="#callback" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
-<!-- =============================================================================================================================== -->
-
-
-<div class="popup popup_popup">
-	<div class="popup__content">
-		<div class="popup__body">
-			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
-		</div>
-	</div>
-</div>
-<!-- =============================================================================================================================== -->
-
-<div class="popup popup_massagename-message">
-	<div class="popup__content">
-		<div class="popup__body">
-			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
-		</div>
-	</div>
-</div>
-<!-- =============================================================================================================================== -->
-
-<div class="popup popup_video">
-	<div class="popup__content">
-		<div class="popup__body">
-			<div class="popup__close popup__close_video" aria-label="Закрыть модальное окно"></div>
-			<div class="popup__video _video"></div>
-		</div>
-	</div>
-</div>
-<!-- <a href="#video" data-video="stFOy0Noahg" class=" _popup-link">Открыть видео</a> -->
-<!-- =============================================================================================================================== -->
-
-<!-- Popup-CSS -->
-<!-- <div id="popup-2" class="popup-2">
-	<a href="#" class="popup__area-2"></a>
-	<div class="popup__body-2">
-		<div class="popup__content-2">
-
-			<a href="#" class="popup__close-2">Close</a>
-			<div class="popup__title">Заказать ворота Дешево!</div>
-			<div class="popup__text">
-				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
-				Алютех и REHAU и Авелор
-			</div>
-			<div class="popup__text">
-				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
-				Алютех и REHAU и Авелор
-			</div>
-			<div class="popup__text">
-				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
-				Алютех и REHAU и Авелор
-			</div>
-			<div class="popup__text">
-				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
-				Алютех и REHAU и Авелор
-			</div>
-			<div class="popup__text">
-				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
-				Алютех и REHAU и Авелор
-			</div>
-
-		</div>
-	</div>
-</div> -->
-<!-- <a href="#popup-2" class="heading-info__button popup-link"></a> -->
-	<!-- Swiper -->
-<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
-<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-<script src="js/vendors.min.js"></script>
-<script src="js/app.min.js"></script>
-</body>
-
-</html>
+<!DOCTYPE html><html lang="ru"><head>	<title>Категории</title>	<meta charset="UTF-8">	<meta name="format-detection" content="telephone=no">	<link rel="stylesheet" href="css/style.min.css?_v=20221109175424">	<!-- <link rel="stylesheet" href="css/fancybox.css?_v=20221109175424"> -->	<link rel="icon" type="image/png" href="img/favicons/icon256.png" sizes="256x256">	<link rel="icon" type="image/png" href="img/favicons/icon128.png" sizes="128x128">	<link rel="icon" type="image/png" href="img/favicons/icon64.png" sizes="64x64">	<link rel="icon" type="image/png" href="img/favicons/icon32.png" sizes="32x32">	<link rel="icon" type="image/png" href="img/favicons/icon16.png" sizes="16x16">	<link rel="icon" type="image/png" href="img/favicons/icon.svg" sizes="any">	<link rel="shortcut icon" href="favicon.ico">	<!-- <meta name="robots" content="noindex, nofollow"> -->	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->	<meta name="viewport" content="width=device-width, initial-scale=1.0"></head><body>	<div class="wrapper">		<header id="header" class="header">	<div class="header__container _container">		<div class="header__row d-flex">			<a href="index.html" class="logo-icon header__logo">				<!-- <? bloginfo("url"); ?> -->			</a>			<ul class="menu-list header__menu-list d-flex">				<li class="menu-list__item"><a href="#" class="header__menu-list-link">Главная</a></li>				<li class="menu-list__item"><a href="#" class="header__menu-list-link">Заправки</a></li>				<li class="menu-list__item"><a href="#" class="header__menu-list-link">Бонусная программа </a>				</li>				<li class="menu-list__item"><a href="#" class="header__menu-list-link">Контакты</a></li>			</ul>			<!-- <?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'menu__list',						'container_class' => 'menu__list','container' => false )); ?>  -->			<div class="header__contacts d-flex">				<div class="header__contacts-social d-flex">					<a href="#" class="header__contacts-social-link contacts-social-link header__contacts-social-link_01"></a>					<a href="#" class="header__contacts-social-link contacts-social-link header__contacts-social-link_02"></a>				</div>				<div class="header__contacts-phone contacts-phone-block">					<a href="tel:84951700000" class="contacts-phone-block__telephone header__phone">8 800 488 22 22</a>					<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->					<a href="#callback" class="header__popup-link _popup-link">Заказать звонок</a>				</div>			</div>			<a href="tel:84951700000" class="mob-phone-icon header__mob-phone-icon"></a>			<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>" class="mob-callback__phone"></a> -->			<div class="icon-menu" aria-label="Бургер меню">				<span></span>				<span></span>				<span></span>			</div>		</div></header><!-- Мобильное меню --><div class="mob-menu header__mob-menu">	<ul class="mob-menu__list">		<li class="mob-menu__item"><a href="#" class="mob-menu__link">Главная</a></li>		<li class="mob-menu__item"><a href="#" class="mob-menu__link">Заправки</a></li>		<li class="mob-menu__item"><a href="#" class="mob-menu__link">Бонусная программа </a></li>		<li class="mob-menu__item"><a href="#" class="mob-menu__link">Контакты</a></li>	</ul>	<!-- <?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'mob-menu__list',		'container_class' => 'mob-menu__list','container' => false )); ?>  -->	<a href="#callback" class="header__popup-link header__popup-link_mob btn _popup-link">ЗАКАЗАТЬ ЗВОНОК</a></div>		<main class="page">			<section id="catBanner" class="catBanner banner">				<div class="banner__nuar_blk nuar_blk"></div>			</section>			<section class="recurring">				<div class="_container">					<p id="breadcrumbs">						<span>							<span>								<a href="index.html">									Главная								</a> /								<span class="breadcrumb_last" aria-current="page">									Наши АЗС								</span>							</span>						</span>					</p>					<h2 class="our-gas__title">						Наши АЗС					</h2>					<div class="our-gas__title-line title-line"></div>					<div class="our-gas__wrap d-flex">						<div class="our-gas__inner d-flex">							<a href="#" class="our-gas__card our-gas__card_01">								<div class="our-gas__card-descpBlock">									<div class="our-gas__card-descpBlock-icon"></div>									<div class="our-gas__card-descpBlock-text">АЗС №01</div>								</div>							</a>							<a href="#" class="our-gas__card our-gas__card_02">								<div class="our-gas__card-descpBlock">									<div class="our-gas__card-descpBlock-icon"></div>									<div class="our-gas__card-descpBlock-text">АЗС №03</div>								</div>							</a>							<a href="#" class="our-gas__card our-gas__card_03">								<div class="our-gas__card-descpBlock">									<div class="our-gas__card-descpBlock-icon"></div>									<div class="our-gas__card-descpBlock-text">АЗС №02</div>								</div>							</a>							<a href="#" class="our-gas__card our-gas__card_04">								<div class="our-gas__card-descpBlock">									<div class="our-gas__card-descpBlock-icon"></div>									<div class="our-gas__card-descpBlock-text">АЗС №04</div>								</div>							</a>							<a href="#" class="our-gas__card our-gas__card_06">								<div class="our-gas__card-descpBlock">									<div class="our-gas__card-descpBlock-icon"></div>									<div class="our-gas__card-descpBlock-text">АЗС №05</div>								</div>							</a>						</div>						<div class="our-gas__inner our-gas__inner-big d-flex">							<a href="#" class="our-gas__card our-gas__card-big our-gas__card_05">								<div class="our-gas__card-descpBlock">									<div class="our-gas__card-descpBlock-icon"></div>									<div class="our-gas__card-descpBlock-text">АЗС №06</div>								</div>							</a>						</div>					</div>				</div>			</section>			<section id="addresses" class="addresses section">				<div class="_container">					<div class="addresses__wrap d-flex">						<div class="addresses__column addresses__column_left">							<div class="addresses__block">								<div class="addresses__block-item">									<h5 class="addresses__block-item-title">Курск, улица 50 лет Октября</h5>									<!-- <p class="addresses__block-item-subtitle"></p> -->									<ul class="addresses__block-item-list">										<li class="addresses__block-item-list-item">Сервис:</li>										<li class="addresses__block-item-list-item">Кофе Магазин Туалет</li>										<li class="addresses__block-item-list-item">Бесплатный WiFi</li>										<li class="addresses__block-item-list-item">Мойка самообслуживания										</li>										<li class="addresses__block-item-list-item">Парковка</li>									</ul>								</div>								<div class="addresses__block-item">									<h5 class="addresses__block-item-title">Курск, улица 50 лет Октября</h5>									<!-- <p class="addresses__block-item-subtitle"></p> -->									<ul class="addresses__block-item-list">										<li class="addresses__block-item-list-item">Сервис:</li>										<li class="addresses__block-item-list-item">Кофе Магазин Туалет</li>										<li class="addresses__block-item-list-item">Бесплатный WiFi</li>										<li class="addresses__block-item-list-item">Мойка самообслуживания										</li>										<li class="addresses__block-item-list-item">Парковка</li>									</ul>								</div>								<div class="addresses__block-item">									<h5 class="addresses__block-item-title">Курск, улица 50 лет Октября</h5>									<!-- <p class="addresses__block-item-subtitle"></p> -->									<ul class="addresses__block-item-list">										<li class="addresses__block-item-list-item">Сервис:</li>										<li class="addresses__block-item-list-item">Кофе Магазин Туалет</li>										<li class="addresses__block-item-list-item">Бесплатный WiFi</li>										<li class="addresses__block-item-list-item">Мойка самообслуживания										</li>										<li class="addresses__block-item-list-item">Парковка</li>									</ul>								</div>								<div class="addresses__block-item">									<h5 class="addresses__block-item-title">Курск, улица 50 лет Октября</h5>									<!-- <p class="addresses__block-item-subtitle"></p> -->									<ul class="addresses__block-item-list">										<li class="addresses__block-item-list-item">Сервис:</li>										<li class="addresses__block-item-list-item">Кофе Магазин Туалет</li>										<li class="addresses__block-item-list-item">Бесплатный WiFi</li>										<li class="addresses__block-item-list-item">Мойка самообслуживания										</li>										<li class="addresses__block-item-list-item">Парковка</li>									</ul>								</div>								<div class="addresses__block-item">									<h5 class="addresses__block-item-title">Курск, улица 50 лет Октября</h5>									<!-- <p class="addresses__block-item-subtitle"></p> -->									<ul class="addresses__block-item-list">										<li class="addresses__block-item-list-item">Сервис:</li>										<li class="addresses__block-item-list-item">Кофе Магазин Туалет</li>										<li class="addresses__block-item-list-item">Бесплатный WiFi</li>										<li class="addresses__block-item-list-item">Мойка самообслуживания										</li>										<li class="addresses__block-item-list-item">Парковка</li>									</ul>								</div>							</div>						</div>						<div class="addresses__column addresses__column_right">							<div id="map" class="addresses__map"></div>						</div>					</div>				</div>			</section>		</main>		<footer id="footer" class="footer">	<div class="footer__container _container">		<div class="footer__row d-flex">			<a href="index.html" class="logo-icon footer__logo">				<!-- <? bloginfo("url"); ?> -->			</a>			<ul class="footer__menu d-flex">				<li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Главная</a></li>				<li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Заправки</a></li>				<li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Бонусная программа </a></li>				<li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Контакты</a></li>			</ul>			<div class="footer__contacts">				<div class="footer__contacts-phone contacts-phone-block">					<a href="tel:84951700000" class="footer__telephone contacts-phone-block__telephone">8 800 488 22 22</a>					<!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->					<a href="#callback" class="footer__popup-link header__popup-link _popup-link">Заказать звонок</a>				</div>			</div>		</div>		<div class="footer__row footer__row-bottom d-flex">			<div class="footer__social-block">				<div class="contacts-social d-flex">					<a href="#" class="footer__contacts-social-link contacts-social-link header__contacts-social-link_01"></a>					<a href="#" class="footer__contacts-social-link contacts-social-link header__contacts-social-link_02"></a>				</div>				<p class="footer__social-text">Мы в соцсетях</p>			</div>		</div>	</div></footer>	</div>	<!-- Popup-с формой --><div class="popup popup_callback">	<div class="popup__content">		<div class="popup__body">			<div class="popup__close" aria-label="Закрыть модальное окно"></div>			<div class="popup__item d-flex">				<div class="popup__img">					<picture><source srcset="img/popup.webp" type="image/webp"><img src="img/popup.jpg?_v=1668005664356" alt=""></picture>				</div>				<div class="popup__form-block">					<h2>Заказать звонок</h2>					<p class="popup__notific">Оставьте заявку и мы свяжемся с Вами в течении 15 минут</p>					<form action="#" class="form">						<div class="form__line">							<input id="name" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Имя"								class="popup__form-input input _req">							<input id="tel2" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Телефон"								class="popup__form-input input _phone _req">							<input id="email" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Email"								class="popup__form-input input _email _req">						</div>						<p class="popup__policy">Заполняя данную форму вы соглашаетесь с <a href="#">политикой								конфиденциальности</a></p>						<button class="popup__form-btn form__btn btn">Заказать</button>					</form>				</div>			</div>		</div>	</div></div><!-- <a href="#callback" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> --><!-- =============================================================================================================================== --><div class="popup popup_popup">	<div class="popup__content">		<div class="popup__body">			<div class="popup__close" aria-label="Закрыть модальное окно"></div>		</div>	</div></div><!-- =============================================================================================================================== --><div class="popup popup_massagename-message">	<div class="popup__content">		<div class="popup__body">			<div class="popup__close" aria-label="Закрыть модальное окно"></div>		</div>	</div></div><!-- =============================================================================================================================== --><div class="popup popup_video">	<div class="popup__content">		<div class="popup__body">			<div class="popup__close popup__close_video" aria-label="Закрыть модальное окно"></div>			<div class="popup__video _video"></div>		</div>	</div></div><!-- <a href="#video" data-video="stFOy0Noahg" class=" _popup-link">Открыть видео</a> --><!-- =============================================================================================================================== --><!-- Popup-CSS --><!-- <div id="popup-2" class="popup-2">	<a href="#" class="popup__area-2"></a>	<div class="popup__body-2">		<div class="popup__content-2">			<a href="#" class="popup__close-2">Close</a>			<div class="popup__title">Заказать ворота Дешево!</div>			<div class="popup__text">				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний				Алютех и REHAU и Авелор			</div>			<div class="popup__text">				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний				Алютех и REHAU и Авелор			</div>			<div class="popup__text">				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний				Алютех и REHAU и Авелор			</div>			<div class="popup__text">				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний				Алютех и REHAU и Авелор			</div>			<div class="popup__text">				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний				Алютех и REHAU и Авелор			</div>		</div>	</div></div> --><!-- <a href="#popup-2" class="heading-info__button popup-link"></a> -->	<!-- Swiper --><!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> --><script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script><script src="js/vendors.min.js?_v=20221109175424"></script><script src="js/app.min.js?_v=20221109175424"></script></body></html>
