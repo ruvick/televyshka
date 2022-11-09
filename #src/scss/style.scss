@@ -331,6 +331,15 @@ h5 {
 .about__imageBlock-btn {
 	position: relative;
 	z-index: 5;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 11.5px 33.5px;
+	font-size: 22px;
+	font-weight: 700;
+	background: #fff;
+	border-radius: 25px;
 }
 
 //========================================================================================================================================================

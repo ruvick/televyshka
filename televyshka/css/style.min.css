@@ -194,7 +194,8 @@ h5 {
   padding: 11.5px 33.5px;
   font-size: 22px;
   font-weight: 700;
-  background: #fff;
+  color: #fff;
+  background: #D9000D;
   border-radius: 25px;
 }
 .btn.fw {
@@ -3610,6 +3611,15 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .about__imageBlock-btn {
   position: relative;
   z-index: 5;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 11.5px 33.5px;
+  font-size: 22px;
+  font-weight: 700;
+  background: #fff;
+  border-radius: 25px;
 }
 
 .our-gas__wrap {
@@ -4275,6 +4285,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .popup__form-btn,
 .header__popup-link_mob {
     width: 100%;
+  }
+  .about__imageBlock-title br,
+.about__imageBlock-descp,
+.about__imageBlock-btn {
+    width: 100%;
+  }
+  .about__imageBlock-subtitle br {
+    display: none;
   }
 }
 @media (max-width: 365px) {

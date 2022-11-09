@@ -508,6 +508,16 @@
 	.header__popup-link_mob {
 		width: 100%;
 	}
+
+	.about__imageBlock-title br,
+	.about__imageBlock-descp,
+	.about__imageBlock-btn {
+		width: 100%;
+	}
+
+	.about__imageBlock-subtitle br {
+		display: none;
+	}
 }
 
 @media (max-width: 365px) {
