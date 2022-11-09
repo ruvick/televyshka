@@ -3607,6 +3607,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   margin-bottom: 25px;
 }
 
+.about__imageBlock-btn {
+  position: relative;
+  z-index: 5;
+}
+
 .our-gas__wrap {
   display: flex;
 }
